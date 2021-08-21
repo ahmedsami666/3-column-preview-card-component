@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background-color: hsl(0, 0%, 95%);
 }
 img{
     padding: 3rem 3rem 1rem;
@@ -19,12 +20,10 @@ p{
     padding: 0 3rem 1rem;
     line-height: 1.5rem;
 }
-
 div{
     display: inline-block;
     text-align: left;
 }
-
 button{
     padding: 1rem 2rem;
     margin: 3rem 3rem 3rem;
@@ -34,8 +33,9 @@ button{
     font-family: "Lexend Deca";
 }
 
+/*classes*/
 .main{
-    margin: 7% 17%;
+    margin: 17% 17%;
     display: table;
     color: hsla(0, 0%, 100%, 0.75);
 }
@@ -61,13 +61,14 @@ button{
 .first-card button{
     color: hsl(31, 77%, 52%);;
 }
-
 .second-card button{
     color: hsl(184, 100%, 22%);
 }
 .third-card button{
     color: hsl(179, 100%, 13%);
 }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 
 button:hover{
     border-style: solid;
@@ -76,7 +77,7 @@ button:hover{
     background-color: transparent;
 }
 
-/*************************/
+/*mobile*/
 @media (max-width: 375px){
     .card{
         width: 100%;
@@ -95,7 +96,3 @@ button:hover{
         background-color: transparent;
     }
 }
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
